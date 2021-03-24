@@ -1,25 +1,11 @@
 <html>
 <head>
 <title>My Document</title>
-<script type="text/javascript">
-function change() {
-var header = document.getElementById("CGU");
-header.innerHTML = "CSIE@CGU";
-var para = document.getElementById("ID");
-para.innerHTML = "怎麼那麼棒！！.";
-}
-function clicker() {
-var btn = document.createElement("BUTTON");
-btn.innerHTML = "CLICK ME";
-document.body.appendChild(btn);
-btn.addEventListener("click",change);
-}
+<script src="quiz1.js">
 </script>
 </head>
 <body>
-<input type="button" value="Change this document." onclick="change()">
-<p>Please Click the button</p>
-<button onclick="clicker()">Click it</button>
+<input type="button" value="Change this document." onclick="newbutton()">
 <h1 id="CGU">CGU</h1>
 <p id="ID">好棒棒</p>
 </body>
